@@ -28,7 +28,6 @@ html {
     display: block;
     border: 0.5px solid #5C5C5C;
     font-size: 24px;
-    display: block;
 }
 
 #sidebar li:hover {
@@ -62,49 +61,73 @@ html {
     width: 310px;
     height: 122px;
 }
+#content {
+    background-color:#EFEFEF;
+    margin-left: 250px;
+    margin-right: 100px;    
+    padding: 38px 0;
+}
 
 #content .section-heading {
     color: #000;
     text-align: center;
-    text-size-adjust: 15px;
-    opacity: 0.6;
-    
+    padding-bottom: 18px;
 }
-#content {
-    background-color:#EFEFEF;
-    margin-left: 250px;
-    margin-right: 100px;
-}
-
 
 #content .about-text {
     text-align: center;
+    padding: 0 269px;
+    font-size: 16px;
+    line-height: 19px;
+    text-indent: 30px;
 }
 
 
 .columns {
     margin-top: 35px;
-    margin-left: 250px;
+    margin-left: 121px;
+    padding: 0 129px;
     column-count: 3;
-    column-rule-style: solid;
+    
 }
 
-.col-1 p img {
+.col {
+    list-style-type: none;
+    padding-right: 50px;
+}
+
+.col h3{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.col p {
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 400;
+}
+
+
+.col p img {
     float: left;
     width: 128px;
     height: 128px;
+    padding-right: 16px;
+    padding-bottom: 6px;
 }
 
-.col-2 p img {
-    float: left;
-    width: 128px;
-    height: 128px;
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    bottom: 0;
+    border-top: 1px solid #DEDEDE;
+    margin-top: 182px;
 }
 
-.col-3 p img {
-    float: left;
-    width: 128px;
-    height: 128px;
+.footer div {
+    padding: 30px 0 30px 250px;
+    text-align: left;
 }
-
 
